@@ -222,25 +222,25 @@ lostpacket/
 
 ## 8. Execution and Reproduction Instructions
 
-### 7.1 Prerequisites
+### 8.1 Prerequisites
 - Linux OS (Ubuntu 22.04 / 24.04 LTS or compatible).
 - GCC/G++ supporting C++17 or C++20.
 - CMake (>= 3.16) and Ninja build system.
 - Python 3.12 with `scikit-learn`, `numpy`, `pandas`, `matplotlib`.
 
-### 7.2 Building the Simulator
+### 8.2 Building the Simulator
 ```bash
 cd ns-3.48
 ./ns3 build
 ```
 
-### 7.3 Running the Live Demonstration
+### 8.3 Running the Live Demonstration
 From the project root:
 ```bash
 ./demo.sh
 ```
 
-### 7.4 Reproducing Full Training and Evaluation Pipelines
+### 8.4 Reproducing Full Training and Evaluation Pipelines
 ```bash
 cd ns-3.48
 
@@ -278,5 +278,4 @@ python3 scripts/generate_pdf_report.py
 - **Project**: LostPacket
 - **Team ID**: A3-PS016-TC243
 - **Problem Statement**: PS-016
-- **Lead Contributor / Workspace Owner**: arjya (`/home/arjya`)
-
+- **Lead Contributor / Workspace Owner**: Arjya Kumar Paul (`/home/arjya`)
