@@ -1,0 +1,2374 @@
+{
+  "n_estimators": 30,
+  "max_depth": 5,
+  "features": [
+    "serving_rsrp_dbm",
+    "target_rsrp_dbm",
+    "delta_rsrp_db",
+    "serving_rsrq_db",
+    "target_rsrq_db",
+    "delta_rsrq_db",
+    "num_neighbours",
+    "speed_kmh"
+  ],
+  "feature_importances": {
+    "delta_rsrq_db": 0.29748414307064663,
+    "serving_rsrq_db": 0.23362952535950013,
+    "delta_rsrp_db": 0.2223792309970696,
+    "target_rsrq_db": 0.13815808839766178,
+    "target_rsrp_dbm": 0.06279397297066654,
+    "serving_rsrp_dbm": 0.036207478121719976,
+    "speed_kmh": 0.00934756108273534,
+    "num_neighbours": 0.0
+  },
+  "trees": [
+    [
+      {
+        "node_id": 0,
+        "feature_index": 5,
+        "threshold": 3.0,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.4896142433234421
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.9903961584633854
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9806763285024155
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 2,
+        "threshold": 2.5,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.5032640949554896
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 3,
+        "right_child": 10,
+        "prob_class1": 0.9769585253456221
+      },
+      {
+        "node_id": 3,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.9826187717265353
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 6,
+        "right_child": 9,
+        "prob_class1": 0.9671052631578947
+      },
+      {
+        "node_id": 6,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 7,
+        "right_child": 8,
+        "prob_class1": 0.997737556561086
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 4,
+        "threshold": -5.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.4937685459940653
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.9869513641755635
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9738717339667459
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.5008902077151335
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 4,
+        "threshold": -4.75,
+        "left_child": 3,
+        "right_child": 8,
+        "prob_class1": 0.9848308051341891
+      },
+      {
+        "node_id": 3,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.9797191887675507
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 6,
+        "right_child": 7,
+        "prob_class1": 0.946058091286307
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 1,
+        "right_child": 6,
+        "prob_class1": 0.5062314540059347
+      },
+      {
+        "node_id": 1,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 2,
+        "right_child": 5,
+        "prob_class1": 0.39473684210526316
+      },
+      {
+        "node_id": 2,
+        "feature_index": 4,
+        "threshold": -5.25,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.9954233409610984
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 1,
+        "threshold": -64.5,
+        "left_child": 7,
+        "right_child": 8,
+        "prob_class1": 0.7169811320754716
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 9,
+        "right_child": 10,
+        "prob_class1": 0.9835294117647059
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 1,
+        "threshold": -65.5,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.4943620178041543
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 0,
+        "threshold": -67.5,
+        "left_child": 3,
+        "right_child": 14,
+        "prob_class1": 0.9083969465648855
+      },
+      {
+        "node_id": 3,
+        "feature_index": 1,
+        "threshold": -64.5,
+        "left_child": 4,
+        "right_child": 9,
+        "prob_class1": 0.9719953325554259
+      },
+      {
+        "node_id": 4,
+        "feature_index": 4,
+        "threshold": -5.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9742388758782201
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 7,
+        "right_child": 8,
+        "prob_class1": 0.9904761904761905
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 9,
+        "feature_index": 4,
+        "threshold": -4.75,
+        "left_child": 10,
+        "right_child": 13,
+        "prob_class1": 0.9697674418604652
+      },
+      {
+        "node_id": 10,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 11,
+        "right_child": 12,
+        "prob_class1": 0.9380952380952381
+      },
+      {
+        "node_id": 11,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 12,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 13,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 14,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 2,
+        "threshold": 2.5,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.49554896142433236
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 3,
+        "right_child": 10,
+        "prob_class1": 0.983510011778563
+      },
+      {
+        "node_id": 3,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.9893364928909952
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": 4,
+        "threshold": -4.75,
+        "left_child": 6,
+        "right_child": 9,
+        "prob_class1": 0.9796839729119639
+      },
+      {
+        "node_id": 6,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 7,
+        "right_child": 8,
+        "prob_class1": 0.9623430962343096
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 1,
+        "right_child": 10,
+        "prob_class1": 0.5091988130563798
+      },
+      {
+        "node_id": 1,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 2,
+        "right_child": 3,
+        "prob_class1": 0.9896193771626297
+      },
+      {
+        "node_id": 2,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 3,
+        "feature_index": 3,
+        "threshold": -8.75,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.9792147806004619
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 6,
+        "right_child": 7,
+        "prob_class1": 0.9883449883449883
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 7,
+        "feature_index": 1,
+        "threshold": -64.5,
+        "left_child": 8,
+        "right_child": 9,
+        "prob_class1": 0.9953051643192489
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 4,
+        "threshold": -5.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.49554896142433236
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 1,
+        "threshold": -64.5,
+        "left_child": 3,
+        "right_child": 6,
+        "prob_class1": 0.9869976359338062
+      },
+      {
+        "node_id": 3,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.9975490196078431
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 7,
+        "right_child": 8,
+        "prob_class1": 0.9771689497716894
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.49851632047477745
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 1,
+        "threshold": -64.5,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.9859154929577465
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 4,
+        "threshold": -4.75,
+        "left_child": 5,
+        "right_child": 8,
+        "prob_class1": 0.971830985915493
+      },
+      {
+        "node_id": 5,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 6,
+        "right_child": 7,
+        "prob_class1": 0.9452054794520548
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 2,
+        "threshold": 2.5,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.49554896142433236
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 3,
+        "right_child": 10,
+        "prob_class1": 0.9754672897196262
+      },
+      {
+        "node_id": 3,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.981198589894242
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": 3,
+        "threshold": -8.75,
+        "left_child": 6,
+        "right_child": 7,
+        "prob_class1": 0.9615384615384616
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 7,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 8,
+        "right_child": 9,
+        "prob_class1": 0.9852216748768473
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.9925558312655087
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.5210682492581602
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.992090395480226
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9850746268656716
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 2,
+        "threshold": 2.5,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.4902077151335312
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.9672131147540983
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9856801909307876
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 4,
+        "threshold": -4.75,
+        "left_child": 7,
+        "right_child": 10,
+        "prob_class1": 0.9707317073170731
+      },
+      {
+        "node_id": 7,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 8,
+        "right_child": 9,
+        "prob_class1": 0.9447004608294931
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 0,
+        "threshold": -67.5,
+        "left_child": 1,
+        "right_child": 10,
+        "prob_class1": 0.49614243323442137
+      },
+      {
+        "node_id": 1,
+        "feature_index": 0,
+        "threshold": -71.0,
+        "left_child": 2,
+        "right_child": 3,
+        "prob_class1": 0.6645468998410174
+      },
+      {
+        "node_id": 2,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 3,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 4,
+        "right_child": 7,
+        "prob_class1": 0.9800703399765534
+      },
+      {
+        "node_id": 4,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9805352798053528
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 7,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 8,
+        "right_child": 9,
+        "prob_class1": 0.9796380090497737
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 1,
+        "right_child": 10,
+        "prob_class1": 0.5038575667655787
+      },
+      {
+        "node_id": 1,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 2,
+        "right_child": 3,
+        "prob_class1": 0.9826388888888888
+      },
+      {
+        "node_id": 2,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 3,
+        "feature_index": 4,
+        "threshold": -4.75,
+        "left_child": 4,
+        "right_child": 9,
+        "prob_class1": 0.9837775202780996
+      },
+      {
+        "node_id": 4,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9785932721712538
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 7,
+        "right_child": 8,
+        "prob_class1": 0.9372197309417041
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.5002967359050445
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 1,
+        "threshold": -64.5,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.9929328621908127
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9866962305986696
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.5008902077151335
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 1,
+        "threshold": -64.5,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.9906103286384976
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9815668202764977
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 1,
+        "right_child": 4,
+        "prob_class1": 0.5056379821958457
+      },
+      {
+        "node_id": 1,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 2,
+        "right_child": 3,
+        "prob_class1": 0.4
+      },
+      {
+        "node_id": 2,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.7236363636363636
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 2,
+        "threshold": 2.5,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.486646884272997
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 3,
+        "right_child": 8,
+        "prob_class1": 0.9761904761904762
+      },
+      {
+        "node_id": 3,
+        "feature_index": 4,
+        "threshold": -5.25,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.9839080459770115
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 6,
+        "right_child": 7,
+        "prob_class1": 0.9953488372093023
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 9,
+        "right_child": 10,
+        "prob_class1": 0.9679012345679012
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 4,
+        "threshold": -5.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.47893175074183975
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 3,
+        "right_child": 6,
+        "prob_class1": 0.9829476248477467
+      },
+      {
+        "node_id": 3,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.9976580796252927
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 7,
+        "right_child": 8,
+        "prob_class1": 0.9670050761421319
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 1,
+        "right_child": 8,
+        "prob_class1": 0.5008902077151335
+      },
+      {
+        "node_id": 1,
+        "feature_index": 1,
+        "threshold": -64.5,
+        "left_child": 2,
+        "right_child": 3,
+        "prob_class1": 0.985981308411215
+      },
+      {
+        "node_id": 2,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 3,
+        "feature_index": 4,
+        "threshold": -4.75,
+        "left_child": 4,
+        "right_child": 7,
+        "prob_class1": 0.9706601466992665
+      },
+      {
+        "node_id": 4,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9457013574660633
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 1,
+        "right_child": 8,
+        "prob_class1": 0.5056379821958457
+      },
+      {
+        "node_id": 1,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 2,
+        "right_child": 3,
+        "prob_class1": 0.988399071925754
+      },
+      {
+        "node_id": 2,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 3,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 4,
+        "right_child": 7,
+        "prob_class1": 0.976303317535545
+      },
+      {
+        "node_id": 4,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9951690821256038
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 2,
+        "threshold": 2.5,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.49910979228486646
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 3,
+        "right_child": 8,
+        "prob_class1": 0.9767711962833914
+      },
+      {
+        "node_id": 3,
+        "feature_index": 4,
+        "threshold": -5.25,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.9791666666666666
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 6,
+        "right_child": 7,
+        "prob_class1": 0.9929577464788732
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 9,
+        "right_child": 10,
+        "prob_class1": 0.9743589743589743
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 1,
+        "right_child": 6,
+        "prob_class1": 0.49851632047477745
+      },
+      {
+        "node_id": 1,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 2,
+        "right_child": 3,
+        "prob_class1": 0.9859154929577465
+      },
+      {
+        "node_id": 2,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 3,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.9714285714285714
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 3,
+        "threshold": -8.25,
+        "left_child": 1,
+        "right_child": 10,
+        "prob_class1": 0.4884272997032641
+      },
+      {
+        "node_id": 1,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 2,
+        "right_child": 3,
+        "prob_class1": 0.9821002386634845
+      },
+      {
+        "node_id": 2,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 3,
+        "feature_index": 4,
+        "threshold": -4.75,
+        "left_child": 4,
+        "right_child": 9,
+        "prob_class1": 0.98562874251497
+      },
+      {
+        "node_id": 4,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9809220985691574
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 7,
+        "right_child": 8,
+        "prob_class1": 0.943127962085308
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.49554896142433236
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.9905100830367735
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9802955665024631
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 1,
+        "threshold": -65.5,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.5240356083086053
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 4,
+        "threshold": -5.25,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.8919191919191919
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9832962138084632
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 4,
+        "threshold": -4.75,
+        "left_child": 7,
+        "right_child": 10,
+        "prob_class1": 0.9865921787709497
+      },
+      {
+        "node_id": 7,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 8,
+        "right_child": 9,
+        "prob_class1": 0.9822222222222222
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.947136563876652
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 2,
+        "threshold": 2.5,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.4913946587537092
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.971830985915493
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9904306220095693
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 7,
+        "right_child": 8,
+        "prob_class1": 0.9808153477218226
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.4943620178041543
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 3,
+        "threshold": -9.25,
+        "left_child": 3,
+        "right_child": 4,
+        "prob_class1": 0.9846335697399528
+      },
+      {
+        "node_id": 3,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 4,
+        "feature_index": 3,
+        "threshold": -8.75,
+        "left_child": 5,
+        "right_child": 6,
+        "prob_class1": 0.9692671394799054
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 7,
+        "threshold": 75.0,
+        "left_child": 7,
+        "right_child": 8,
+        "prob_class1": 0.9927360774818402
+      },
+      {
+        "node_id": 7,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      }
+    ],
+    [
+      {
+        "node_id": 0,
+        "feature_index": 4,
+        "threshold": -5.25,
+        "left_child": 1,
+        "right_child": 2,
+        "prob_class1": 0.512759643916914
+      },
+      {
+        "node_id": 1,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 2,
+        "feature_index": 2,
+        "threshold": 3.5,
+        "left_child": 3,
+        "right_child": 6,
+        "prob_class1": 0.9908256880733946
+      },
+      {
+        "node_id": 3,
+        "feature_index": 5,
+        "threshold": 3.25,
+        "left_child": 4,
+        "right_child": 5,
+        "prob_class1": 0.9928741092636579
+      },
+      {
+        "node_id": 4,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 5,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 6,
+        "feature_index": 4,
+        "threshold": -4.75,
+        "left_child": 7,
+        "right_child": 10,
+        "prob_class1": 0.9889135254988913
+      },
+      {
+        "node_id": 7,
+        "feature_index": 5,
+        "threshold": 4.25,
+        "left_child": 8,
+        "right_child": 9,
+        "prob_class1": 0.9776785714285714
+      },
+      {
+        "node_id": 8,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 0.0
+      },
+      {
+        "node_id": 9,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      },
+      {
+        "node_id": 10,
+        "feature_index": -2,
+        "threshold": -2.0,
+        "left_child": -1,
+        "right_child": -1,
+        "prob_class1": 1.0
+      }
+    ]
+  ]
+}

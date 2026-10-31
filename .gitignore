@@ -1,0 +1,62 @@
+# ==========================================
+# LostPacket - Git Ignore
+# ==========================================
+
+# ns-3 generated build artifacts
+/ns-3.48/build/
+/ns-3.48/cmake-cache/
+/ns-3.48/ns3
+
+# ns-3 generated simulation traces and captures
+*.pcap
+*.pcapng
+*.tr
+*.tr.gz
+
+# Compiled binaries and object files
+*.o
+*.a
+*.so
+*.so.*
+*.out
+*.exe
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Editor and operating system files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+
+# ns-3 source archive (downloadable upstream)
+/ns-3.48.tar.bz2

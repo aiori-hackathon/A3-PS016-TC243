@@ -1,0 +1,5 @@
+policy,speed_kmh,seed,run,sim_time_s,ho_attempts,ho_successes,ho_failures,ping_pong,tx_packets,rx_packets,rx_bytes,mean_throughput_mbps,mean_ho_rx_gap_s,valid_gap_measurements
+a3,120,1,1,60,2,2,0,0,5990,5985,7182000,0.9576,0.011,2
+a3,120,2,1,60,2,2,0,0,5990,5973,7167600,0.95568,0.041,2
+a3,30,1,1,240,2,2,0,0,23990,23973,28767600,0.95892,0.026,2
+a3,30,2,1,240,2,2,0,0,23990,23977,28772400,0.95908,0.011,2

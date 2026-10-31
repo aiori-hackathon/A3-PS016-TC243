@@ -1,0 +1,41 @@
+Starting LostPacket LTE handover simulation
+0.0202143s UE connected: IMSI=1 CellId=1 RNTI=1
+1.1s Throughput: 0.9504 Mbps
+2.1s Throughput: 0.96 Mbps
+3.1s Throughput: 0.96 Mbps
+4.1s Throughput: 0.96 Mbps
+5.1s Throughput: 0.96 Mbps
+6.1s Throughput: 0.96 Mbps
+7.1s Throughput: 0.96 Mbps
+8.1s Throughput: 0.96 Mbps
+9.1s Throughput: 0.96 Mbps
+10.1s Throughput: 0.96 Mbps
+11.1s Throughput: 0.96 Mbps
+12.1s Throughput: 0.9408 Mbps
+12.456s HANDOVER START: IMSI=1 From=1 To=2
+12.4602s HANDOVER SUCCESS: IMSI=1 NewCell=2
+13.1s Throughput: 0.9504 Mbps
+14.1s Throughput: 0.96 Mbps
+15.1s Throughput: 0.96 Mbps
+16.1s Throughput: 0.96 Mbps
+17.1s Throughput: 0.96 Mbps
+18.1s Throughput: 0.96 Mbps
+19.1s Throughput: 0.96 Mbps
+20.1s Throughput: 0.96 Mbps
+21.1s Throughput: 0.96 Mbps
+22.1s Throughput: 0.96 Mbps
+23.1s Throughput: 0.96 Mbps
+24.1s Throughput: 0.96 Mbps
+25.1s Throughput: 0.96 Mbps
+26.1s Throughput: 0.96 Mbps
+27.1s Throughput: 0.96 Mbps
+27.456s HANDOVER START: IMSI=1 From=2 To=3
+27.4602s HANDOVER SUCCESS: IMSI=1 NewCell=3
+Final handover completed. UE will continue moving for 6 seconds.
+28.1s Throughput: 0.9504 Mbps
+29.1s Throughput: 0.96 Mbps
+30.1s Throughput: 0.96 Mbps
+31.1s Throughput: 0.96 Mbps
+32.1s Throughput: 0.96 Mbps
+33.1s Throughput: 0.96 Mbps
+Total UDP bytes received: 3997200

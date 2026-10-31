@@ -1,0 +1,5 @@
+event_type,time_s,imsi,cell_id,target_cell_id
+HO_START,12.88,1,1,2
+HO_SUCCESS,12.8842,1,2,
+HO_START,27.88,1,2,3
+HO_SUCCESS,27.8842,1,3,

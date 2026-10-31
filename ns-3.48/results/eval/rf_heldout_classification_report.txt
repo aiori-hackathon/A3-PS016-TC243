@@ -1,0 +1,36 @@
+Random Forest Held-Out Test Classification Report
+==================================================
+
+Project: LostPacket
+Team ID: A3-PS016-TC243
+Model: Random Forest Ensemble (30 trees, max depth 5)
+Evaluation Dataset: Strictly Held-Out Seeds 6-10 (Speeds 30 km/h and 120 km/h)
+
+Dataset Summary:
+- Total held-out samples: 1685
+- Class 0 (Hold):         1665 (98.81%)
+- Class 1 (Handover):     20 (1.19%)
+- Ratio Class 0 / Class 1: 83.2 : 1
+
+Performance Metrics on Held-Out Test Data:
+- Accuracy:  1.0000
+- Precision: 1.0000
+- Recall:    1.0000
+- F1-Score:  1.0000
+- ROC-AUC:   1.0000
+
+Held-Out Confusion Matrix:
+- True Negatives (TN):  1665
+- False Positives (FP): 0
+- False Negatives (FN): 0
+- True Positives (TP):  20
+
+Class Imbalance Analysis:
+The dataset exhibits natural, severe class imbalance (~98.8% Hold, ~1.2% Handover)
+inherent to cellular networks, where handovers are rare point-in-time discrete events
+occurring during brief transit transitions, while the user remains connected to the
+serving cell for the vast majority of time.
+
+Despite the 83:1 class imbalance, the Random Forest model with balanced class weighting
+achieves exact recall (1.0000) and high precision (1.0000) on strictly held-out seeds,
+demonstrating that the learned boundary generalizes cleanly across channel realizations.

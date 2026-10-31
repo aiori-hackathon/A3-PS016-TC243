@@ -1,0 +1,57 @@
+Random Forest Training and Imitation Learning Report
+==================================================
+
+Project: LostPacket
+Team ID: A3-PS016-TC243
+Model: Random Forest Classifier (Supervised Imitation Learning)
+Source Baseline: 3GPP Event A3 RSRP Handover Policy (ns-3.48 LTE/EPC)
+
+Important Note:
+This model is trained via imitation learning of the A3 handover policy.
+High training accuracy reflects successful behavioral imitation and policy capture,
+not inherent algorithmic superiority over A3 by construction.
+
+Dataset Provenance:
+- Total simulation runs: 10 (Seeds 1-5, Speeds 30 km/h and 120 km/h)
+- Total samples: 1685
+- Class 0 (Hold / No Handover): 1665 (98.81%)
+- Class 1 (Trigger Handover):   20 (1.19%)
+- Input features (8): serving_rsrp_dbm, target_rsrp_dbm, delta_rsrp_db, serving_rsrq_db, target_rsrq_db, delta_rsrq_db, num_neighbours, speed_kmh
+
+Hyperparameters:
+- n_estimators: 30
+- max_depth: 5
+- min_samples_split: 4
+- class_weight: balanced
+- random_state: 42
+
+5-Fold Stratified Cross-Validation:
+- Mean Precision: 1.0000 +/- 0.0000
+- Mean Recall:    1.0000 +/- 0.0000
+- Mean F1-Score:  1.0000 +/- 0.0000
+- Mean ROC-AUC:   1.0000 +/- 0.0000
+
+Full Training Performance:
+- Accuracy:  1.0000
+- Precision: 1.0000
+- Recall:    1.0000
+- F1-Score:  1.0000
+- ROC-AUC:   1.0000
+
+Confusion Matrix:
+[[1665    0]
+ [   0   20]]
+
+Feature Importances:
+  - delta_rsrq_db       : 0.2975
+  - serving_rsrq_db     : 0.2336
+  - delta_rsrp_db       : 0.2224
+  - target_rsrq_db      : 0.1382
+  - target_rsrp_dbm     : 0.0628
+  - serving_rsrp_dbm    : 0.0362
+  - speed_kmh           : 0.0093
+  - num_neighbours      : 0.0000
+
+C++ Inference Validation:
+- Max absolute probability difference on test samples: 0.0000000000e+00
+- Verification status: PASSED (difference < 1e-6)
